@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{A30323B6-DF2F-4A75-8701-4188F2E4419E}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FanController</RootNamespace>
+    <AssemblyName>FanController</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <ApplicationIcon>Resources\main.ico</ApplicationIcon>
+    <RunCodeAnalysis>False</RunCodeAnalysis>
+    <SourceAnalysisOverrideSettingsFile>C:\Users\Костя\AppData\Roaming\ICSharpCode\SharpDevelop5\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Collections" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Services">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Reflection" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OpenHardwareMonitor\Collections\IReadOnlyArray.cs" />
+    <Compile Include="OpenHardwareMonitor\Collections\ListSet.cs" />
+    <Compile Include="OpenHardwareMonitor\Collections\Pair.cs" />
+    <Compile Include="OpenHardwareMonitor\Collections\ReadOnlyArray.cs" />
+    <Compile Include="OpenHardwareMonitor\Collections\RingCollection.cs" />
+    <Compile Include="FanController-clone.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\Computer.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\Control.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\CPU\CPUGroup.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\CPU\CPUID.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\CPU\CPULoad.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\CPU\GenericCPU.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\CPU\IntelCPU.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\Hardware.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\IComputer.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\IControl.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\Identifier.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\IElement.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\IGroup.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\IHardware.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\IOControlCode.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\IParameter.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\ISensor.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\ISettings.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\IVisitor.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\KernelDriver.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\Nvidia\NVAPI.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\Nvidia\NvidiaGPU.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\Nvidia\NvidiaGroup.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\Opcode.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\OperatingSystem.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\Parameter.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\PInvokeDelegateFactory.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\Ring0.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\Sensor.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\SensorVisitor.cs" />
+    <Compile Include="OpenHardwareMonitor\Hardware\ThreadAffinity.cs" />
+    <Compile Include="Properties\localize.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>localize.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings1.Designer.cs">
+      <DependentUpon>Settings1.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <None Include="IntelCPU.cs" />
+    <Compile Include="NvAPI.cs" />
+    <Compile Include="MainForm.cs" />
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <DependentUpon>Resource1.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <EmbeddedResource Include="Properties\localize.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>localize.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\localize.ru-ru.resx" />
+    <EmbeddedResource Include="Resources\WinRing0.sys" />
+    <EmbeddedResource Include="Resources\WinRing0x64.sys" />
+    <None Include="Properties\Settings1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\main.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="MainForm.resx" />
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="OpenHardwareMonitor\Collections" />
+    <Folder Include="OpenHardwareMonitor" />
+    <Folder Include="OpenHardwareMonitor\Hardware" />
+    <Folder Include="OpenHardwareMonitor\Hardware\CPU" />
+    <Folder Include="OpenHardwareMonitor\Hardware\Nvidia" />
+    <Folder Include="Resources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

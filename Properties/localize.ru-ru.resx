@@ -1,0 +1,131 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="INFO" xml:space="preserve">
+      <value>Информация</value>
+    </data>
+    <data name="NOT_AVAILABLE_IN_CURRENT_VERSION" xml:space="preserve">
+      <value>Недоступно в текущей версии программы.</value>
+    </data>
+    <data name="EXIT" xml:space="preserve">
+      <value>Закрыть</value>
+    </data>
+    <data name="RUN_AS" xml:space="preserve">
+      <value>Программа запущена от имени администратора</value>
+    </data>
+    <data name="GPU_DETECT" xml:space="preserve">
+      <value>Обнаружен NVIDIA GPU sensor</value>
+    </data>
+    <data name="OHW_DETECT" xml:space="preserve">
+      <value>Обнаружен Open Hardware Monitor</value>
+    </data>
+    <data name="LAPTOP" xml:space="preserve">
+      <value>Ноутбук:</value>
+    </data>
+    <data name="MANUAL_MODE" xml:space="preserve">
+      <value>Принудительные макс. обороты кулера</value>
+    </data>
+    <data name="FAN_MODE" xml:space="preserve">
+      <value>Режим работы кулера:</value>
+    </data>
+    <data name="MAX_MODE_START_TEMP" xml:space="preserve">
+      <value>Температура запуска:</value>
+    </data>
+    <data name="MAX_MODE" xml:space="preserve">
+      <value>Максимум</value>
+    </data>
+    <data name="NORMAL_MODE" xml:space="preserve">
+      <value>Обычный</value>
+    </data>
+    <data name="DLL_NOT_FOUND" xml:space="preserve">
+      <value>Нет доступа к fan.dll</value>
+    </data>
+    <data name="NOT_DETECTED" xml:space="preserve">
+      <value>Невозможно получить информацию с сенсоров GPU и CPU.</value>
+    </data>
+    <data name="ERROR" xml:space="preserve">
+      <value>Ошибка</value>
+    </data>
+    <data name="SAVE_ERROR_TEXT" xml:space="preserve">
+      <value>Нужно указать температуру не ниже 40°C и не выше 99°C</value>
+    </data>
+    <data name="SAVED" xml:space="preserve">
+      <value>Сохранено</value>
+    </data>
+    <data name="SAVED_TEXT" xml:space="preserve">
+      <value>Вы установили температуру старта на </value>
+    </data>
+    <data name="TEMP" xml:space="preserve">
+      <value>Температура</value>
+    </data>
+    <data name="SAVE" xml:space="preserve">
+      <value>Сохранить</value>
+    </data>
+    <data name="NORMALIZE" xml:space="preserve">
+      <value>Развернуть</value>
+    </data>
+  <data name="WARNING" xml:space="preserve">
+    <value>ОСТОРОЖНО!</value>
+  </data>
+    <data name="WARNING_TEXT" xml:space="preserve">
+      <value>Вы запустили программу не на ноутбуке Acer Aspire 5750G!
+На вашей платформе не гарантируется правильная работа программы.
+Используйте её на свой страх и риск.</value>
+    </data>
+    <data name="MINIMIZE" xml:space="preserve">
+      <value>Программа свёрнута в трей</value>
+    </data>
+    <data name="TICK_TIME_ERROR" xml:space="preserve">
+      <value>Нужно указать время обновления не ниже 1 сек. и не выше 99 сек.</value>
+    </data>
+    <data name="SECONDS" xml:space="preserve">
+      <value>сек.</value>
+    </data>
+    <data name="OLD_DLL" xml:space="preserve">
+      <value>Вы используете старый </value>
+    </data>
+  <data name="TRAY" xml:space="preserve">
+    <value>Трей</value>
+  </data>
+  <data name="SETTINGS" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="AUTOSTART" xml:space="preserve">
+    <value>Автозапуск с Windows</value>
+  </data>
+  <data name="AUTOSTART_ADDED" xml:space="preserve">
+    <value>Программа добавлена в автозагрузку.</value>
+  </data>
+  <data name="AUTOSTART_ADDED_ADMIN" xml:space="preserve">
+    <value>Программа добавлена в автозагрузку от имени администратора.</value>
+  </data>
+  <data name="AUTOSTART_ADD" xml:space="preserve">
+    <value>Нажмите "Да", чтобы запускать программу от имени администратора или "Нет", чтобы запускать в обычном режиме.</value>
+  </data>
+  <data name="ATTENTION" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="AUTOSTART_REMOVED" xml:space="preserve">
+    <value>Программа убрана из автозагрузки.</value>
+  </data>
+  <data name="ACER_PROGRAM" xml:space="preserve">
+    <value>У вас не установлена официальная программа Acer Fan Controller.
+Нажмите "Ок", чтобы перейти к скачиванию программы или "Отмена" для выхода.</value>
+  </data>
+  <data name="TRAY_MODE" xml:space="preserve">
+    <value>Р: </value>
+  </data>
+  <data name="TIMER" xml:space="preserve">
+    <value>Время обновления</value>
+  </data>
+</root>

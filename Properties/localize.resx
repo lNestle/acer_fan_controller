@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="INFO" xml:space="preserve">
+        <value>Info</value>
+    </data>
+    <data name="NOT_AVAILABLE_IN_CURRENT_VERSION" xml:space="preserve">
+        <value>Sorry, this function not available in this version.</value>
+    </data>
+    <data name="EXIT" xml:space="preserve">
+        <value>Exit</value>
+    </data>
+    <data name="RUN_AS" xml:space="preserve">
+        <value>This program running with admin rules</value>
+    </data>
+    <data name="GPU_DETECT" xml:space="preserve">
+        <value>Detected NVIDIA GPU sensor</value>
+    </data>
+    <data name="OHW_DETECT" xml:space="preserve">
+        <value>Detected Open Hardware Monitor</value>
+    </data>
+    <data name="LAPTOP" xml:space="preserve">
+        <value>Laptop:</value>
+    </data>
+    <data name="MANUAL_MODE" xml:space="preserve">
+        <value>Manual Mode:</value>
+    </data>
+    <data name="FAN_MODE" xml:space="preserve">
+        <value>Fan mode:</value>
+    </data>
+    <data name="TICK_TIME_ERROR" xml:space="preserve">
+        <value>You need specify refresh above 1 second and below 99 seconds</value>
+    </data>
+    <data name="MINIMIZE" xml:space="preserve">
+        <value>Program has running in tray</value>
+    </data>
+    <data name="WARNING_TEXT" xml:space="preserve">
+        <value>You run this program do not on a laptop Acer Aspire 5750G!
+On your platform is not guaranteed to work this program.
+Use it at your own risk.</value>
+    </data>
+    <data name="WARNING" xml:space="preserve">
+        <value>WARNING!</value>
+    </data>
+    <data name="TEMP" xml:space="preserve">
+        <value>Temperature</value>
+    </data>
+    <data name="DLL_NOT_FOUND" xml:space="preserve">
+        <value>Program doesn't have access to fan.dll</value>
+    </data>
+    <data name="ERROR" xml:space="preserve">
+        <value>Error</value>
+    </data>
+    <data name="MAX_MODE" xml:space="preserve">
+        <value>Max</value>
+    </data>
+    <data name="NORMAL_MODE" xml:space="preserve">
+        <value>Default</value>
+    </data>
+    <data name="MAX_MODE_START_TEMP" xml:space="preserve">
+        <value>Starting temperature:</value>
+    </data>
+    <data name="NOT_DETECTED" xml:space="preserve">
+        <value>Unable to get information from sensors GPU and CPU.</value>
+    </data>
+    <data name="SAVE_ERROR_TEXT" xml:space="preserve">
+        <value>You need specify temperature above 40°C and below 99°C</value>
+    </data>
+    <data name="SAVED" xml:space="preserve">
+        <value>Saved</value>
+    </data>
+    <data name="SAVED_TEXT" xml:space="preserve">
+        <value>You set starting temperature on </value>
+    </data>
+    <data name="SAVE" xml:space="preserve">
+        <value>Save</value>
+    </data>
+    <data name="NORMALIZE" xml:space="preserve">
+        <value>Normalize</value>
+    </data>
+    <data name="INITIALIZATION" xml:space="preserve">
+        <value>N / A</value>
+    </data>
+    <data name="SECONDS" xml:space="preserve">
+        <value>sec</value>
+    </data>
+    <data name="DEGREE_CELSIUS" xml:space="preserve">
+    <value>°C</value>
+  </data>
+    <data name="OLD_DLL" xml:space="preserve">
+    <value>You use old </value>
+  </data>
+    <data name="TRAY" xml:space="preserve">
+        <value>Tray</value>
+    </data>
+    <data name="SETTINGS" xml:space="preserve">
+        <value>Settings</value>
+    </data>
+    <data name="AUTOSTART" xml:space="preserve">
+        <value>Autorun with Windows</value>
+    </data>
+    <data name="AUTOSTART_ADDED" xml:space="preserve">
+        <value>Program was added to autorun.</value>
+    </data>
+    <data name="AUTOSTART_ADDED_ADMIN" xml:space="preserve">
+        <value>Program was added to autorun as administrator.</value>
+    </data>
+    <data name="AUTOSTART_ADD" xml:space="preserve">
+        <value>Click "Yes" to run the program as administrator or "No" to run default.</value>
+    </data>
+    <data name="ATTENTION" xml:space="preserve">
+        <value>Attention!</value>
+    </data>
+    <data name="AUTOSTART_REMOVED" xml:space="preserve">
+        <value>Program was removed from autorun.</value>
+    </data>
+    <data name="ACER_PROGRAM" xml:space="preserve">
+        <value>You don't have official Acer Fan Controller software installed.
+Click "Ok" to proceed to download the program or "Cancel" to exit. </value>
+    </data>
+    <data name="TRAY_CPU" xml:space="preserve">
+        <value>CPU Т: </value>
+    </data>
+    <data name="TRAY_GPU" xml:space="preserve">
+        <value>GPU Т: </value>
+    </data>
+    <data name="TRAY_MODE" xml:space="preserve">
+        <value>Mode: </value>
+    </data>
+    <data name="LABEL_CPU" xml:space="preserve">
+        <value>CPU:</value>
+    </data>
+    <data name="LABEL_GPU" xml:space="preserve">
+        <value>GPU:</value>
+    </data>
+    <data name="TIMER" xml:space="preserve">
+        <value>Update timer</value>
+    </data>
+</root>
