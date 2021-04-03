@@ -1,4 +1,6 @@
-﻿## Необходимое ПО:
+﻿## Подходит для Acer Aspire 5750G
+
+## Необходимое ПО:
 - [NetFramework v4.0](https://www.microsoft.com/ru-ru/download/details.aspx?id=17851) и выше.
 - [Acer Fan Controller](ftp://ftp2.acer-euro.com/Archiv/notebook/aspire_5750G/fan/FanController_V1.0.0.3.zip)
 
